@@ -8,8 +8,8 @@ import os
 load_dotenv()
 
 # Set up Streamlit UI
-st.set_page_config(page_title="Conversational medical Chatbot")
-st.header("Hey, Let's Chat")
+st.set_page_config(page_title='🤖 MediBot', layout='centered', page_icon='🤖')
+st.header("🤖 Medibot Chat AI")
 
 # Initialize the ChatGroq model
 chat = ChatGroq(temperature=0.5)
